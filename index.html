@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/32c332ccd9.js" crossorigin="anonymous"></script>
+    <!--vendors file-->
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <!--resouces file-->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/resposive.css">
+    <title>hospital web page</title>
+</head>
+<body>
+  <!--start header area-->
+   <header class="clearfix" id="home">
+       <section class="top-header-area">
+           <div class="manu-top row">
+               <a href="#home">
+               <img src="resources/img/logo.png" alt="who" class="logo">
+               </a>
+               <h2 class="name">National Institute of Neuro-Sciences & Hospital</h2>
+               <h3 class="hidden">Neuro-Sciences & Hospital</h3>
+               <span class="noumber">+8801633-012992</span>
+               
+               <div class="mobile-menu">
+                   <span onclick="openNav()">&#9776;</span>
+                   <div id="myNav" class="overley">
+                       <a href="javascript:void()" onclick="closeNav()" class="close-btn">&times;</a>
+                       <div class="overley-content">
+                            <a onclick="closeNav()" href="#home">home</a>
+                            <a onclick="closeNav()" href="#about_us">about us</a>
+                            <a onclick="closeNav()" href="#departments">departments</a>
+                            <a onclick="closeNav()" href="#services">services</a>
+                            <a onclick="closeNav()" href="javascript:void()">news & events</a>
+                            <a onclick="closeNav()" href="#our_doctors">doctors</a>
+                            <a onclick="closeNav()" href="#contact_us">contact us</a>
+                       </div>
+                       <div class="overley-social">
+                          <a class="t" onclick="closeNav()" href="https://twitter.com/Meheraj185" target="_blank"><i class="fab fa-twitter"></i></a>
+                          <a class="f" onclick="closeNav()" href="https://www.facebook.com/mdmaraj185" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                          <a class="y" onclick="closeNav()" href="https://www.youtube.com/channel/UCgQoJg_NYabPdVlBO7dwdQA/" target="_blank"><i class="fab fa-youtube"></i></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <nav class="main-menu">
+           <div class="row">
+               <ul class="menu">
+                   <li><a class="active" href="#home">home</a></li>
+                   <li><a href="#about_us">about us</a></li>
+                   <li><a href="#departments">departments</a></li>
+                   <li><a href="#services">services</a></li>
+                   <li><a href="javascript:void()">news & events</a></li>
+                   <li><a href="#our_doctors">doctors</a></li>
+                   <li><a href="#contact_us">contact us</a></li>
+               </ul>
+               <ul class="social-area">
+                   <li><a href="https://twitter.com/Meheraj185" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                   <li><a href="https://www.facebook.com/mdmaraj185" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                   <li><a href="https://www.youtube.com/channel/UCgQoJg_NYabPdVlBO7dwdQA/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+               </ul>
+           </div>
+       </nav>
+       <div class="header-content clearfix">
+           <div class="row">
+               <div class="col span_1_of_2 left-area">
+                   <h2>Affected by NINS?</h2>
+                   <h1>We’re here to help.</h1>
+                   <p class="little-description">We provide free resources and vital services for patients and families affected by NINS</p>
+                   <input type="submit" value="learn more" class="btn btn-header">
+               </div>
+               <div class="col span_1_of_2 right-area">
+                   <img src="resources/img/header_photo.png" alt="">
+               </div>
+           </div>
+       </div>
+   </header>
+     <!--end header area-->
+     <!--start About us area-->
+     <section class="about_us js--services-section" id="about_us">
+         <div class="row">
+             <div class="col span_1_of_3 box">
+                 <h1>Learn About NINS</h1>
+                 <img src="resources/img/services_1.jpg" alt="hospital" class="s-img">
+                 <p class="little-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet urna nec pede tristique volutpat. Etiam posuere felis nec arcu. </p>
+                 <a href="javascript:void()"><i class="far fa-arrow-alt-circle-right"></i>Find Out More</a>
+             </div>
+             
+             <div class="col span_1_of_3 box">
+                 <h1>Find Treatment Near You</h1>
+                 <img src="resources/img/services_2.jpg" alt="hospital" class="s-img">
+                 <p class="little-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet urna nec pede tristique volutpat. Etiam posuere felis nec arcu. </p>
+                 <a href="javascript:void()"><i class="far fa-arrow-alt-circle-right"></i>Find Out More</a>
+             </div>
+             
+             <div class="col span_1_of_3 box">
+                 <h1>Free Patient Support</h1>
+                 <img src="resources/img/services_3.jpg" alt="hospital" class="s-img">
+                 <p class="little-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet urna nec pede tristique volutpat. Etiam posuere felis nec arcu. </p>
+                 <a href="javascript:void()"><i class="far fa-arrow-alt-circle-right"></i>Contact Us</a>
+             </div>
+         </div>
+     </section>
+     <!--end About us area-->
+     <!--start departments area-->
+     <section class="departments-area" id=departments>
+         <div class="row">
+             <div class="col span_1_of_2">
+                 <h1>Notice Board</h1>
+                 <div class="item-content">
+                     <div class="item_1 item_box">
+                         <button class="b1">Lorem ipsum dolor sit amet, consectetur.</button>
+                         <button class="b2"><i class="fas fa-angle-right"></i></button>
+                     </div>
+                     <div class="item_2 item_box">
+                         <button class="b1">Lorem ipsum dolor sit amet, consectetur.</button>
+                         <button class="b2"><i class="fas fa-angle-right"></i></button>
+                     </div>
+                     <div class="item_3 item_box">
+                         <button class="b1">Lorem ipsum dolor sit amet, consectetur.</button>
+                         <button class="b2"><i class="fas fa-angle-right"></i></button>
+                     </div>
+                     <div class="item_4 item_box">
+                         <button class="b1">Lorem ipsum dolor sit amet, consectetur.</button>
+                         <button class="b2"><i class="fas fa-angle-right"></i></button>
+                     </div>
+                     <div class="item_5 item_box">
+                         <button class="b1">Lorem ipsum dolor sit amet, consectetur.</button>
+                         <button class="b2"><i class="fas fa-angle-right"></i></button>
+                     </div>
+                 </div>
+             </div>
+             <div class="col span_1_of_2">
+                 <h1>Featured Video</h1>
+                 <video controls autoplay>
+                     <source src="resources/video/COVID-19.mp4" type="video/mp4">
+                 </video>
+             </div>
+         </div>
+     </section>
+     <!--end departments area-->
+     <!--Start services Area-->
+     <section class="services_area" id="services">
+         <div class="row">
+             <div class="col span_1_of_3 box box1">
+                 <h1>news & events</h1>
+                 <div>
+                     <h4>Lorem ipsum dolor sit amet.</h4>
+                     <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga perspiciatis minus, ducimus sint pariatur autem.</p>
+                 </div>
+                 <div class="hr">
+                     <h4>Lorem ipsum dolor sit amet.</h4>
+                     <p class="little-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga perspiciatis minus, ducimus sint pariatur autem.</p>
+                 </div>
+                 <a href="javascript:void()" class="bottom"><i class="far fa-arrow-alt-circle-right"></i>view all</a>
+             </div>
+             <div class="col span_1_of_3 box box2">
+                 <h1>medical services</h1>
+                 <ul class="item">
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>ICU</a></li>
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>post operative services</a></li>
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>emergency services</a></li>
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>ambulance services</a></li>
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>cardiographs surgery</a></li>
+                     <li><a href="javascript:void()"><i class="fas fa-check"></i>medicine</a></li>
+                 </ul>
+                 <a href="javascript:void()" class="bottom"><i class="far fa-arrow-alt-circle-right"></i>all services</a>
+             </div>
+             <div class="col span_1_of_3 box box3">
+                 <h1>photo gallery</h1>
+                 <div class="photo">
+                     <img src="resources/img/meheraj_web3.jpg" alt="">
+                     <img src="resources/img/a_man.jpg" alt="">
+                     <img src="resources/img/faruk_web1.jpg" alt="">
+                     <img src="resources/img/suken_web2.jpg" alt="">
+                 </div>
+                 <a href="javascript:void()" class="bottom"><i class="far fa-arrow-alt-circle-right"></i>view all</a>
+             </div>
+         </div>
+     </section>
+     <!--End services Area-->
+     <!--Start Our Doctors Area-->
+     <section class="our-doctors" id="our_doctors">
+         <div class="row">
+            <h1>our doctors</h1>
+            <div class="col span_1_of_3 margin box">
+                 <img src="resources/img/suken_web2.jpg" alt="">
+                 <h3>Sd.Suken</h3>
+                 <lable>visitor doctors of NINS</lable>
+                 <span>Laryngological  .  Psychological  .  Surgery</span>
+            </div>
+            <div class="col span_1_of_3 box">
+                 <img src="resources/img/faruk_web1.jpg" alt="">
+                 <h3>Dr.Faruk</h3>
+                 <lable>visitor doctors of NINS</lable>
+                 <span>Laryngological  .  Psychological  .  Surgery</span>
+            </div>
+            <div class="col span_1_of_3 box">
+                 <img src="resources/img/meheraj_web3.jpg" alt="">
+                 <h3>Dg.Meheraj</h3>
+                 <lable>visitor doctors of NINS</lable>
+                 <span>Laryngological  .  Psychological  .  Surgery</span>
+            </div>
+         </div>
+     </section>
+     <!--End Our Doctors Area-->
+     <!--Start contact us Area-->
+     <section class="contact_us" id="contact_us">
+         <div class="row">
+             <div class="footer-logo">
+               <a href="javascript:void()">
+               <img src="resources/img/logo.png" alt="who" class="logo">
+               </a>
+               <h2 class="name">National Institute of Neuro-Sciences & Hospital</h2>
+           </div>
+           <div class="footer-content">
+               <div class="col span_1_of_4 box">
+               <h2>navigation</h2>
+               <ul>
+                   <li><a href="#home"><i class="fas fa-angle-right"></i>home</a></li>
+                   <li><a href="#about_us"><i class="fas fa-angle-right"></i>about us</a></li>
+                   <li><a href="#departments"><i class="fas fa-angle-right"></i>departments</a></li>
+               </ul>
+               </div>
+               
+               <div class="col span_1_of_4 box">
+               <h2>services</h2>
+               <ul>
+                   <li><a href="#services"><i class="fas fa-angle-right"></i>ICU</a></li>
+                   <li><a href="javascript:void()"><i class="fas fa-angle-right"></i>emergency services</a></li>
+                   <li><a href="javascript:void()"><i class="fas fa-angle-right"></i>ambulance services</a></li>
+               </ul>
+               </div>
+               
+               <div class="col span_1_of_4 box">
+               <h2>training</h2>
+               <ul>
+                   <li><a href="javascript:void()"><i class="fas fa-angle-right"></i>class schedule</a></li>
+                   <li><a href="javascript:void()"><i class="fas fa-angle-right"></i>result</a></li>
+                   <li><a href="javascript:void()"><i class="fas fa-angle-right"></i>student notice</a></li>
+               </ul>
+               </div>
+               
+               <div class="col span_1_of_4 box">
+               <h2>navigation</h2>
+               <ul>
+                   <li><a href="javascript:void()"><i class="fas fa-phone-alt"></i>tel:+8801633012992</a></li>
+                   <li><a href="javascript:void()"><i class="fab fa-whatsapp"></i>wts:+8801633012992</a></li>
+                   <li><a href="javascript:void()"><i class="fas fa-envelope"></i>Eml: mdmeheraj185@gmail.com</a></li>
+               </ul>
+               </div>
+           </div>
+         </div>
+     </section>
+     <footer>
+         <div>
+            <h2>design by meheraj</h2>
+         </div>
+         <div>
+            <span>&copy; 2020 National Institute of Neuro-Sciences & Hospital</span>
+         </div>
+     </footer>
+     <!--End Footer Area-->
+     
+    <!--js script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="resources/js/main.js"></script>
+    
+    
+
+</body>
+</html>
