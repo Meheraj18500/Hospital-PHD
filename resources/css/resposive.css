@@ -3,7 +3,7 @@
         font-size:60.5%;
     }
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:980px) {
     html{
         font-size:52.5%;
     }
@@ -17,10 +17,6 @@
     }
     .mobile-menu{
         display: block;
-    }
-    .top-header-area .manu-top .hidden{
-        display: block;
-        font-size:2.5rem;
     }
     .noumber,
     .main-menu,
@@ -54,7 +50,7 @@
         width: 100%;
     }
     .departments-area video{
-        width:45rem;
+        max-width:45rem;
         height:25.5rem;
     }
 }
@@ -75,8 +71,11 @@
     .mobile-menu .close-btn{
         right: 2rem;
     }
+    .mobile-menu .overley-content a{
+        font-size: 2.5rem;
+    }
     .departments-area video{
-        height: 26rem;
+        height: auto;
     }
     .services_area .box1{
         text-align: center;
